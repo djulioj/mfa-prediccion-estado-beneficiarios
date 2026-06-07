@@ -1,0 +1,54 @@
+# ─── DATOS (no subir archivos pesados) ───────────────────────────────
+data/raw/
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+
+# Sí subir datos procesados pequeños
+!data/processed/
+!data/processed/*.csv
+
+# ─── PYTHON ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# ─── JUPYTER ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ─── OUTPUTS TEMPORALES ──────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+
+# Figuras temporales (sí subir las de reports/)
+notebooks/figuras/
+src/figuras/
+
+# ─── IDEs ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── MODELOS ENTRENADOS (pueden ser pesados) ─────────────────────────
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Sí subir modelos pequeños o de ejemplo
+!models/README.md

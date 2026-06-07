@@ -1,0 +1,21 @@
+# ─── Core Data Science ───────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ─── Machine Learning ────────────────────────────────────────────────
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+imbalanced-learn>=0.11.0      # SMOTE para balanceo de clases
+
+# ─── Visualización ───────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0                 # Visualizaciones interactivas
+
+# ─── Notebooks ───────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# ─── Utilidades ──────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+tqdm>=4.65.0                   # Barras de progreso en loops pesados
